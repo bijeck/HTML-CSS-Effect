@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #F4F4F4;
+}
+
+.main-container {
+  width: 380px;
+  height: 210px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.follow-title {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid black;
+}
+
+.follow-title h3 {
+  background-color: black;
+  display: inline-block;
+  /*inline: bỏ khối cho <h> để nó ôm sát text nên nó không hiểu margin và padding*/
+  /* inline-block: bỏ khối để nó ôm sát text nhưng vẫn hiểu margin và padding */
+  color: #E9D500;
+  padding: 5px 10px;
+}
+
+.follow-icon {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  /* padding-top: 20px; */
+  padding-bottom: 5px;
+  overflow: hidden;
+  /* dùng để cắt các khối div khi dử dụng flaot:left */
+}
+
+.icon {
+  background-color: #374187;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.4s;
+  /* thòi gian di chuyển khi bỏ hover*/
+}
+
+.icon i {
+  font-size: 50px;
+  color: white;
+  background-color: transparent;
+  /* trong suốt background bên ngoài */
+  /* WARNING: thẻ <i> là thẻ không xuống dòng phải block lại mới dùng được margin */
+  display: block;
+  margin-top: 10px;
+}
+
+.icon p {
+  background-color: transparent;
+  margin-top: 10px;
+  font-weight: bold;
+  ;
+  color: white;
+}
+
+.twitter {
+  background-color: rgb(49, 231, 237);
+}
+
+.gg {
+  background-color: #EC4947;
+  margin-right: 0;
+}
+
+.icon:hover {
+  background-color: black;
+  /* width: 200px;
+  height: 200px; */
+  margin-top: 15px;
+  transition: 0.5s;
+  /* thòi gian di chuyển khi nhấn*/
+}
+
+.display {
+  background-color: white;
+  display: inline-block;
+  color: #E9D500;
+  position: relative;
+  /* thiết lập position để sử dụng lệnh phía  dưới */
+  top: 17px;
+  left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
