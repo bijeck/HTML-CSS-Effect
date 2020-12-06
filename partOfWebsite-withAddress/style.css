@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  background-color: #ffffff;
+}
+/* css cho main-news */
+.main-container{
+  width: 930px;
+  height: 720px;
+  background-color: #ffffff;
+  margin: auto;/* WARNING: tự động canh 2 bên*/
+  margin-top: 50px;
+}
+.main-news{
+  height: 340px;
+
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.main-news h2{
+  text-transform: uppercase;/* WARNING: tự động chuyển thành viết hoa */
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.noi-dung img{
+  width: 460px;
+  height: 286px;
+  float: right;
+  margin-left: 10px;
+}
+.noi-dung{
+  background-color: #ECF8FF;
+  height: 100%;
+  padding-left: 10px;
+
+}
+.noi-dung p{
+  font-family: 'Open Sans', sans-serif;
+  color: #3D3D3D;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+.lien-quan{
+  width: 450px;
+  margin-top: 10px;
+  border-top: 1px black dotted;
+  text-align: justify;
+}
+.lien-quan a{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #0F1110;
+}
+.lien-quan i{
+  font-size: 9px;
+  padding-right: 5px;
+  color: grey;
+}
+/* css cho sub-news */
+.sub-news{
+  margin-top: 20px;
+  overflow: hidden;
+}
+.sub-news div.tin{
+  width: 290px;
+  margin-right: 30px;
+  float: left;
+  overflow: hidden;
+}
+.sub-news div.tin:nth-child(3){
+  margin-right: 0px;
+}
+.sub-news div.tin p{
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #1C1C1C;
+}
+.sub-news a{
+  width: 290px;
+  text-decoration: none;
+}
+.sub-news div.tin img{
+  width: 290px;
+  height: 175px;
+  margin-bottom: 10px;
+}
